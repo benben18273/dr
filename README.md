@@ -1,5 +1,7 @@
 # All-Crypto-Wallet-Drainer-MetamaskUpdate
 
+# Free NFT Drainer in ettings.js. DM for full Multi Chain script
+
 The script is now working for all wallets mobile and desktop. I have also by-passed the recent metamask security update!
 
 # PRICE FOR NEW SCRIPT : 2 ETH (NO DISCOUNT)
