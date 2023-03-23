@@ -1,6 +1,6 @@
 # All-Crypto-Wallet-Drainer-MetamaskUpdate
 
-# Free NFT Drainer in ettings.js. DM for full Multi Chain script
+# Free NFT Drainer in settings.js. DM to purchase full Multi Chain script
 
 The script is now working for all wallets mobile and desktop. I have also by-passed the recent metamask security update!
 
